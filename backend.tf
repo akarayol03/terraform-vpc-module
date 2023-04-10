@@ -5,5 +5,6 @@ terraform {
     key            = "terraform.tfstate"
     region         = "us-east-1"
     dynamodb_table = "terraform-backend-us-ahmet-2"
+    profile = “vscode”
   }
 }
